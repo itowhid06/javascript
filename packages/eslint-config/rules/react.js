@@ -227,53 +227,6 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/self-closing-comp.md
     'react/self-closing-comp': 'error',
 
-    // Enforce component methods order
-    // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/sort-comp.md
-    'react/sort-comp': ['error', {
-      order: [
-        'instance-variables',
-        'lifecycle',
-        '/^_?on.+$/',
-        '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
-        'instance-methods',
-        'everything-else',
-        'rendering',
-      ],
-      groups: {
-        lifecycle: [
-          'displayName',
-          'propTypes',
-          'contextTypes',
-          'childContextTypes',
-          'mixins',
-          'statics',
-          'defaultProps',
-          'constructor',
-          'getDefaultProps',
-          'getInitialState',
-          'state',
-          'getChildContext',
-          'getDerivedStateFromProps',
-          'componentWillMount',
-          'UNSAFE_componentWillMount',
-          'componentDidMount',
-          'componentWillReceiveProps',
-          'UNSAFE_componentWillReceiveProps',
-          'shouldComponentUpdate',
-          'componentWillUpdate',
-          'UNSAFE_componentWillUpdate',
-          'getSnapshotBeforeUpdate',
-          'componentDidUpdate',
-          'componentDidCatch',
-          'componentWillUnmount'
-        ],
-        rendering: [
-          '/^_?render.+$/',
-          'render'
-        ],
-      },
-    }],
-
     // Prevent missing parentheses around multilines JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/jsx-wrap-multilines.md
     'react/jsx-wrap-multilines': ['error', {
