@@ -163,14 +163,6 @@ module.exports = {
       detectObjects: false,
     }],
 
-    // disallow use of multiple spaces
-    'no-multi-spaces': ['error', {
-      exceptions: {
-        VariableDeclarator: true,
-      },
-      ignoreEOLComments: false,
-    }],
-
     // disallow use of multiline strings
     'no-multi-str': 'error',
 

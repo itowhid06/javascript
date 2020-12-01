@@ -447,10 +447,6 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/abe8381c0d6748047224c430ce47f02e40160ed0/docs/rules/jsx-max-depth.md
     'react/jsx-max-depth': 'off',
 
-    // Disallow multiple spaces between inline JSX props
-    // https://github.com/yannickcr/eslint-plugin-react/blob/ac102885765be5ff37847a871f239c6703e1c7cc/docs/rules/jsx-props-no-multi-spaces.md
-    'react/jsx-props-no-multi-spaces': 'error',
-
     // Prevent usage of UNSAFE_ methods
     // https://github.com/yannickcr/eslint-plugin-react/blob/157cc932be2cfaa56b3f5b45df6f6d4322a2f660/docs/rules/no-unsafe.md
     'react/no-unsafe': 'off',

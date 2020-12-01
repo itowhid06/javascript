@@ -63,7 +63,6 @@ module.exports = onlyErrorOnRules([
   'newline-per-chained-call',
   'no-irregular-whitespace',
   'no-mixed-spaces-and-tabs',
-  'no-multi-spaces',
   'no-regex-spaces',
   'no-spaced-func',
   'no-trailing-spaces',
