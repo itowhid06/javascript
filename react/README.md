@@ -19,7 +19,6 @@ This style guide is mostly based on the standards that are currently prevalent i
   1. [Parentheses](#parentheses)
   1. [Tags](#tags)
   1. [Methods](#methods)
-  1. [Ordering](#ordering)
 
 ## Basic Rules
 
@@ -410,6 +409,7 @@ This style guide is mostly based on the standards that are currently prevalent i
     Exceptions:
 
     - HOCs that proxy down props and hoist propTypes
+
       ```jsx
       function HOC(WrappedComponent) {
         return class Proxy extends React.Component {

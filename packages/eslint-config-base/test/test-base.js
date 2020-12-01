@@ -1,8 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 import test from 'tape';
-
 import index from '..';
+
 
 const files = { ...{ index } }; // object spread is to test parsing
 
